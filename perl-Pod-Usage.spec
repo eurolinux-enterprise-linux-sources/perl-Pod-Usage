@@ -1,6 +1,6 @@
 Name:           perl-Pod-Usage
 Version:        1.63
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Print a usage message from embedded POD documentation
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -73,6 +73,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.63-3
+- Mass rebuild 2013-12-27
+
 * Tue Jun 25 2013 Petr Pisar <ppisar@redhat.com> - 1.63-2
 - Correct dependencies
 
